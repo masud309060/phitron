@@ -1,0 +1,7 @@
+3
+4 2
+LRLR
+5 3
+LLRRR
+8 5
+RRLLRLRL

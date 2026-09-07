@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    char str[3];
+
+    scanf("%s", &str);
+
+    printf("%s", str);
+    // printf("%d", str[5]);
+
+
+    return 0;
+}
