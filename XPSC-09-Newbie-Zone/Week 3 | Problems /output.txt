@@ -1,0 +1,15 @@
+a, a
+and: 0
+b, b
+and: 0
+c, c
+and: 0
+a, c
+and: 2
+c, a
+and: 4
+b, b
+and: 4
+a, a
+and: 6
+6

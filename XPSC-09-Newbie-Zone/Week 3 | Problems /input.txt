@@ -1,0 +1,9 @@
+1
+7
+aa
+bb
+cc
+ac
+ca
+bb
+aa

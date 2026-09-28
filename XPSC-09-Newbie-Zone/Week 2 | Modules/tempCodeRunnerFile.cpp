@@ -1,4 +1,3 @@
-    for(auto it: mp) {
-        int key = it.first, value = it.second;
-        cout << key << " -> " << value << endl;
-    }
+if(mp.find(10) != mp.end()) {
+    //     cout << mp[10] << endl;
+    // }
