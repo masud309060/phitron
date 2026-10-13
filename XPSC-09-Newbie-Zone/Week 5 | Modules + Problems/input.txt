@@ -1,2 +1,11 @@
-7 20
-1 1 1 1 1 1 1
+5
+8
+abcaacab
+6
+xyzxyz
+4
+abba
+8
+rprarlap
+12
+khyyhhyhkyab

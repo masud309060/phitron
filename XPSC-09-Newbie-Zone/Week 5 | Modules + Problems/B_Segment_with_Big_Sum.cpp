@@ -6,24 +6,25 @@ int main() {
     cin.tie(nullptr);
 
     int n;
-    long long s;
-    cin >> n >> s;
+    long long k;
+    cin >> n >> k;
 
-    vector<long long> arr(n);
+    vector<int> arr(n);
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
 
-    int l = 0, r = 0, ans = n;
+    int l = 0, r = 0, ans = INT_MAX;
     long long sum = 0;
-    bool no_seg = true;
+    bool has_ans = false;
     while (r < n)
     {
         sum += arr[r];
-        if(sum >= s) {
-            no_seg = false;
-            while (sum >= s && l <= r)
+
+        if(sum >= k) {
+            has_ans = true;
+            while (sum >= k && l <= r)
             {
                 ans = min(ans, r - l + 1);
                 sum -= arr[l];
@@ -33,14 +34,9 @@ int main() {
 
         r++;
     }
-
-    if(no_seg == true) {
-        cout << -1;
-    } else {
-        cout << ans;
-    }
-
     
+    if(has_ans == true) cout << ans;
+    else cout << -1;    
+
     return 0;
 }
-
